@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
 }
 body{
     background-color:white;
@@ -14,7 +14,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding:30px 0;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
 }
 .nav .logo h1{
     font-weight: 600;
@@ -30,6 +30,7 @@ body{
 .nav ul{
     display: flex;
     list-style: none;
+    flex-wrap:nowrap;
 }
 .nav ul li{
     margin-right:30px;
@@ -111,6 +112,7 @@ input {
 .content .content-right{
     display: block;
     width:100%;
+    flex-wrap:nowrap;
 }
 .content .content-right img{
     width:400px;
@@ -119,7 +121,7 @@ input {
     position: absolute;
     right:100px;
     top:150px;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
 }
 @keyframes rotate {
     0%{
